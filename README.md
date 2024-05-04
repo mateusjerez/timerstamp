@@ -1,8 +1,16 @@
-TIMERSTAMP MICROSERVICE
 
-Example Usage:
-[project url]/api/2015-12-25
-[project url]/api/1451001600000
+## API Reference
 
-Example Output:
-{"unix":1451001600000, "utc":"Fri, 25 Dec 2015 00:00:00 GMT"}
+#### Get time
+
+```http
+  GET /api/xxxx-xx-xx | Ex: /api/2015-12-25
+
+  GET /api/xxxxxxxxxxxxx | Ex: /api/1451001600000
+
+```
+
+#### Output Example
+
+```http
+ {"unix":1451001600000, "utc":"Fri, 25 Dec 2015 00:00:00 GMT"}
